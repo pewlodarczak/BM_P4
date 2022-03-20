@@ -168,4 +168,3 @@ export default {
     </footer>
   </section>
 </template>
-
