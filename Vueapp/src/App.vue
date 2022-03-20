@@ -34,6 +34,7 @@ export default {
     <p><a href="/components.html">Components</a></p>
     <p><a href="/userinput.html">User Input</a></p>
     <p><a href="/congrats.html">Congrats</a></p>
+    <p><a href="/edittodo.html">Edit ToDo</a></p>
     <br>
     <input :value="text" @input="onInput" placeholder="Type here">
     <p>{{ text }}</p>

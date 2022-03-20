@@ -1,7 +1,6 @@
 <script>
 
 let id = 0
-let hideCompleted = false
 
 export default {
   data() {
@@ -46,7 +45,6 @@ export default {
   <button @click="hideCompleted = !hideCompleted">
     {{ hideCompleted ? 'Show all' : 'Hide completed' }}
   </button>
-
   <p><a href="/index.html">Take me home</a></p>
 </template>
 
