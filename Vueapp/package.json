@@ -7,8 +7,11 @@
     "preview": "vite preview --port 5050"
   },
   "dependencies": {
+    "esbuild-windows-64": "^0.14.29",
     "js-confetti": "^0.10.2",
-    "vue": "^3.2.31"
+    "sass": "^1.49.9",
+    "vue": "^3.2.31",
+    "vuetify": "^2.6.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.2",

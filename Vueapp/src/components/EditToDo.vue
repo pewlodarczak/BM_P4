@@ -165,6 +165,9 @@ export default {
       <button class="clear-completed" @click="removeCompleted" v-show="todos.length > remaining">
         Clear completed
       </button>
+      <br>
+      <br/>
+      <p><button onclick="window.location.href='/index.html'">Home</button></p>
     </footer>
   </section>
 </template>
